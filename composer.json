@@ -1,0 +1,19 @@
+{
+    "name": "schatzy/belajar_php_composer_library",
+    "description": "Membuat composer library Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Supriadi Roadman",
+            "email": "supriadiroadman@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Supriadi\\Belajar\\": "src/"
+        }
+    }
+}
